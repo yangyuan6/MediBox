@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dcddf2"
+    android:orientation="vertical"
+    tools:context="com.app.medibox.UI.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="添加药品"
+            android:textColor="#846ff1"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/medicinal_name"
+        android:layout_below="@id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="药品名称" />
+
+    <EditText
+        android:id="@+id/medicinal_name_edit"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_height="30dp"
+        android:layout_below="@id/medicinal_name"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/textview_style"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/functionalTreatment"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/medicinal_name_edit"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="功能主治" />
+
+    <EditText
+        android:id="@+id/functionalTreatment_edit"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/functionalTreatment"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/textview_style"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/taboo"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/functionalTreatment_edit"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="禁忌与使用方法" />
+
+    <EditText
+        android:id="@+id/taboo_edit"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/taboo"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/textview_style"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/timeLimit"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/taboo_edit"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="有效期" />
+
+    <EditText
+        android:id="@+id/timeLimit_edit"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/timeLimit"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/textview_style"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/placement"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/timeLimit_edit"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="放置处" />
+
+    <EditText
+        android:id="@+id/placement_edit"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/placement"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/textview_style"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/id_code"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/placement_edit"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="添加识别码" />
+
+    <EditText
+        android:id="@+id/id_code_edit"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/id_code"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/textview_style"
+        android:padding="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_add_medicine"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@mipmap/finish" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants"
+    tools:context="com.app.medibox.UI.MainActivity">
+    <LinearLayout
+        android:layout_width="260dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:background="@drawable/buttonstyle_max_circular"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/timePart"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:text="am"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:layout_marginStart="17dp"
+
+                android:layout_alignParentStart="true"
+                />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="10:40"
+                android:textSize="20dp"
+
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:id="@+id/btn_edit"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@mipmap/edit"
+                android:layout_marginEnd="13dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="9dp"
+                android:focusable="false"
+                android:clickable="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_medicine_name"
+                android:layout_width="100dp"
+                android:paddingLeft="5dp"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="12dp"
+                android:background="@drawable/buttonstyle_max_circular"
+                android:gravity="center"
+                android:text="成长快乐 x2"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/tv_medicine_name1"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:paddingLeft="5dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/buttonstyle_max_circular_blue"
+                android:gravity="center"
+                android:text="治疗头疼药 x1"
+                android:textSize="13dp" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

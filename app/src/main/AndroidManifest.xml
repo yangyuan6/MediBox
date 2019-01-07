@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.medibox">
+    <!-- 开启闪光灯权限 -->
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.HARDWARE_TEST" />
+    <!-- 往sdcard中写入数据的权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 在sdcard中创建/删除文件的权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UI.LoginActivity"></activity>
+        <activity android:name=".UI.AddTakeMedicineRemindActivity"></activity>
+        <activity android:name=".UI.AddMedicineActivity"></activity>
+        <activity android:name=".UI.AddRemindActivity"></activity>
+        <activity android:name=".UI.AlarmActivity"></activity>
+        <activity android:name=".UI.MyMedicinalBoxActivity"></activity>
+        <activity android:name=".UI.PersonalActivity"></activity>
+        <activity android:name=".UI.TakeMedicineRemindActivity"></activity>
+        <activity android:name=".UI.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

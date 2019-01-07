@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bgc_an"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.app.medibox.UI.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/buttonstyle_gray">
+
+        <EditText
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="180dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/buttonstyleblack"
+            android:padding="5dp"
+            android:hint="电子邮箱"
+            android:textColorHint="#c6c1c1"
+            android:textColor="#c6c1c1"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/et_pass"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="100dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/buttonstyleblack"
+            android:padding="5dp"
+            android:inputType="textPassword"
+            android:hint="密码"
+            android:textColorHint="#c6c1c1"
+            android:textColor="#c6c1c1"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:background="#e7e5e5"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="登录"
+            android:textColor="#5959c5"
+            android:textSize="22sp" />
+    </RelativeLayout>
+</LinearLayout>

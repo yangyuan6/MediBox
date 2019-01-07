@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dcddf2"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="添加提醒"
+            android:textColor="#846ff1"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/remind_time"
+        android:layout_below="@id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="提醒时间" />
+
+<RelativeLayout
+    android:id="@+id/relativeLayout_time"
+    android:layout_width="match_parent"
+    android:layout_below="@id/remind_time"
+    android:layout_height="30dp">
+    <TextView
+        android:id="@+id/remind_time_edit"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/textview_style"
+        android:padding="5dp" />
+    <Button
+        android:id="@+id/btn_add_remind_time"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@mipmap/meditor_time"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="3.8dp"
+        android:layout_marginRight="30dp"
+        />
+</RelativeLayout>
+
+    <TextView
+        android:id="@+id/remind_medicine1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/relativeLayout_time"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="药品1" />
+
+    <EditText
+        android:id="@+id/remind_medicine1_edit"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/remind_medicine1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/textview_style"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/remind_medicine2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/remind_medicine1_edit"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="药品2" />
+
+    <EditText
+        android:id="@+id/remind_medicine2_edit"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/remind_medicine2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/textview_style"
+        android:padding="5dp" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_add_remind"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@mipmap/finish" />
+    </LinearLayout>
+</RelativeLayout>

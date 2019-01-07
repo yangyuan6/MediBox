@@ -1,0 +1,26 @@
+<resources>
+
+    <dimen name="home_padding">16dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+
+    <integer name="num_cols">1</integer>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="edtextsize">20dp</dimen>
+    <dimen name="edpadding">2dp</dimen>
+
+    <dimen name="header_height">300dp</dimen>
+    <dimen name="header_logo_size">100dp</dimen>
+
+    <dimen name="fbutton_default_conner_radius">8dp</dimen>
+    <dimen name="fbutton_default_padding_left">10dp</dimen>
+    <dimen name="fbutton_default_padding_right">10dp</dimen>
+    <dimen name="fbutton_default_padding_top">5dp</dimen>
+    <dimen name="fbutton_default_padding_bottom">5dp</dimen>
+    <dimen name="fbutton_default_shadow_height">4dp</dimen>
+
+    <dimen name="top_height">80dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

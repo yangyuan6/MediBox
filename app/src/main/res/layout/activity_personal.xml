@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dcddf2"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.app.medibox.UI.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@mipmap/touxiang" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="80dp"
+        android:padding="5dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="320dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/buttonstyleblack_s"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="MediBox"
+                android:textColor="#846ff1"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="照看他人"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:src="@mipmap/add" />
+
+            <TextView
+                android:id="@+id/myMedicinalBox"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="我的药盒"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/takeMedicineRemind"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="服药提醒"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/set"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="设置"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FloatLabeledEditText">
+        <attr name="fletTextAppearance" format="reference" />
+        <attr name="fletPadding" format="reference|dimension" />
+        <attr name="fletPaddingLeft" format="reference|dimension" />
+        <attr name="fletPaddingTop" format="reference|dimension" />
+        <attr name="fletPaddingRight" format="reference|dimension" />
+        <attr name="fletPaddingBottom" format="reference|dimension" />
+        <attr name="fletBackground" format="reference|color" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="border_overlay" format="boolean" />
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="FButton">
+        <attr name="shadowEnabled" format="boolean" />
+        <attr name="buttonColor" format="color" />
+        <attr name="shadowColor" format="color" />
+        <attr name="shadowHeight" format="dimension" />
+        <attr name="cornerRadius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="WaveView">
+        <attr name="above_wave_color" format="color"/>
+        <attr name="blow_wave_color" format="color"/>
+        <attr name="progress" format="integer"/>
+        <attr name="wave_length" format="enum">
+            <enum name="large" value="1"/>
+            <enum name="middle" value="2"/>
+            <enum name="little" value="3"/>
+        </attr>
+        <attr name="wave_height" format="enum">
+            <enum name="large" value="1"/>
+            <enum name="middle" value="2"/>
+            <enum name="little" value="3"/>
+        </attr>
+        <attr name="wave_hz" format="enum">
+            <enum name="fast" value="1"/>
+            <enum name="normal" value="2"/>
+            <enum name="slow" value="3"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="Themes">
+        <attr name="waveViewStyle" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="RoundAngleImageView">
+        <attr name="roundWidth" format="dimension" />
+        <attr name="roundHeight" format="dimension" />
+    </declare-styleable>
+
+</resources>
+

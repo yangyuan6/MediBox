@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.app.medibox.UI.MainActivity">
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/buttonstyle_max_circular"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/medicinal_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="京都念慈庵枇杷膏"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/medicinal_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="有效期 2018.02"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/medicinal_place"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="放置处 书房药箱"
+            android:textSize="15dp" />
+    </LinearLayout>
+</LinearLayout>
